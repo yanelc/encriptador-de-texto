@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>encriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<enlace rel="preconectar" href="https://fonts.googleapis.com">
+        <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+        <enlace href="https: //fonts.googleapis.com/css2? family= Montserrat:wght@300 & display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img class="logo" src="imagenes/Logo.png">
+    </header>
+
+    <main>
+        <section class="seccion1">
+            <div class="caja-encriptar">
+                
+                <textarea class="input-padron" cols="50" rows="12" id="contenedor-captura" placeholder="Ingrese el Texto aquì"></textarea>
+            </div>
+    
+            <div class="escrito">
+                <p>Con letras minusculas y sin acento</p> 
+            </div>
+    
+            <div class="botones">
+                <input class="botn1" type="button" value="Encriptar"  id="botn1">
+                <input class="botn2" type="button" value="Desencriptar"  id="botn2">
+            </div>
+        </section>
+    
+        <section class="seccion2">
+            
+            <div id="dibujo">
+                <img class="dibujo" src="imagenes/figura.png" alt="niño arrodillado">
+                <h3> Ningun mensaje fue encontrado</h3>
+                <p>Ingresa texto a encriptar o desencriptar</p> 
+            </div>
+    
+            <div id="boton-copiar" class="boton-copiar">
+                    <textarea class="text-input-salida" name="msg" id="msg" cols="30" rows="10"></textarea>
+                    <input class="copiar" type="button" value="Copiar" id="btn-copy">
+
+            </div>
+            
+        </section> 
+        
+    </main>
+     
+</body>
+<script src="programa.js"></script>
+</html>
